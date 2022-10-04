@@ -3,7 +3,7 @@
 from function_insert_into_database import get_api,create_database
 
 
-reponse=get_api()
+response=get_api()
 mycursor=create_database()
 
 def insert_into_database(response,mycursor):
